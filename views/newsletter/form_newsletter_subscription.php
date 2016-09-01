@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Subscribe to our newsletter</h1>
-    <form action="/newsletter/newsletter/subscription" method="post">
+    <form action="/newsletter-subscriptions/newsletter/subscription" method="post">
         Name: <input type="text" name="name" value="<?php echo $name ?>">
         <span>* <?php echo $nameErr;?></span>
         E-mail: <input type="email" name="email" value="<?php echo $email ?>">
