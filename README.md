@@ -13,3 +13,5 @@ The form must ask for for the email address. When the form is submitted:
 ● if the email doesn’t exists, then it will insert a new row in the table, and display a
 
 success message.
+
+● if the 
